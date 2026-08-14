@@ -1,0 +1,34 @@
+body {
+  padding: 0 !important;
+}
+
+/* Variable declarations*/
+:root {
+  --font-matter-light: "Matter Light", sans-serif;
+  --font-matter-standard-regular: "Matter Regular", sans-serif;
+  --font-matter-bold: "Matter Bold", sans-serif;
+}
+
+@font-face {
+  font-family: "Matter Light";
+  src: url("/fonts/Matter-Light.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter Regular";
+  src: url("/fonts/Matter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter Bold";
+  src: url("/fonts/Matter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
